@@ -13,6 +13,7 @@
     "SoVITS模型列表": "Liste des modèles SoVITS",
     "填切割后音频所在目录！读取的音频文件完整路径=该目录-拼接-list文件里波形对应的文件名（不是全路径）。": "Répertoire où sont enregistrés les fichiers audio après la découpe ! Chemin complet du fichier audio à lire = ce répertoire - nom du fichier correspondant à la forme d'onde dans le fichier liste (pas le chemin complet).",
     "音频自动切分输入路径，可文件可文件夹": "Chemin d'entrée automatique de découpage audio, peut être un fichier ou un dossier",
+    "音频文件夹zip": "zip du dossier audio",
     "切分后的子音频的输出根目录": "Répertoire racine de sortie des sous-audios après découpage",
     "怎么切": "Comment découper",
     "不切": "Pas de découpe",

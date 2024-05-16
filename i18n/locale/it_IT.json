@@ -9,6 +9,7 @@
     "UVR5进程输出信息": "Informazioni sull'output del processo UVR5",
     "0b-语音切分工具": "0b-Strumento di segmentazione vocale",
     "音频自动切分输入路径，可文件可文件夹": "Percorso di input per la segmentazione automatica dell'audio, può essere un file o una cartella",
+    "音频文件夹zip": "cartella audio zip",
     "切分后的子音频的输出根目录": "Directory radice di output per gli audio segmentati",
     "threshold:音量小于这个值视作静音的备选切割点": "threshold: Punto di taglio alternativo considerato silenzioso se il volume è inferiore a questo valore",
     "min_length:每段最小多长，如果第一段太短一直和后面段连起来直到超过这个值": "min_length: Lunghezza minima di ogni segmento. Se il primo segmento è troppo corto, verrà unito agli segmenti successivi fino a superare questo valore",

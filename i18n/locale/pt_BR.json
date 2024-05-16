@@ -9,6 +9,7 @@
     "UVR5进程输出信息": "Informações de saída do processo UVR5",
     "0b-语音切分工具": "0b- Ferramenta de corte de voz",
     "音频自动切分输入路径，可文件可文件夹": "Caminho de entrada automático de corte de áudio, pode ser um arquivo ou uma pasta",
+    "音频文件夹zip": "ljudmapp zip",
     "切分后的子音频的输出根目录": "Diretório raiz de saída do sub-áudio após o corte",
     "threshold:音量小于这个值视作静音的备选切割点": "Limiar: O volume menor que este valor é considerado como um ponto de corte mudo alternativo",
     "min_length:每段最小多长，如果第一段太短一直和后面段连起来直到超过这个值": "min_length: O comprimento mínimo de cada parágrafo, se o primeiro for muito curto, conecte-o continuamente aos próximos até ultrapassar este valor",

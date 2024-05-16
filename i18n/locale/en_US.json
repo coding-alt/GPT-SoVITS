@@ -25,6 +25,7 @@
   "SoVITS模型列表": "SoVITS weight list",
   "填切割后音频所在目录！读取的音频文件完整路径=该目录-拼接-list文件里波形对应的文件名（不是全路径）。": "Fill in the directory of segmented audio. The complete path of the read audio file is equal to the directory concatenated with the waveform's corresponding filename from the list file (not the full path).",
   "音频自动切分输入路径，可文件可文件夹": "Audio slicer input (file or folder)",
+  "音频文件夹zip": "Audio folder zip",
   "切分后的子音频的输出根目录": "Audio slicer output folder",
   "怎么切": "How to slice the sentence",
   "不切": "No slice",

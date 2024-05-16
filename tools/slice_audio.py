@@ -8,10 +8,13 @@ from slicer2 import Slicer
 
 def slice(inp,opt_root,threshold,min_length,min_interval,hop_size,max_sil_kept,_max,alpha,i_part,all_part):
     os.makedirs(opt_root,exist_ok=True)
-    if os.path.isfile(inp):
+    input = []
+    if os.path.isfile(inp) and (inp.endswith(".wav") or inp.endswith(".mp3")):
         input=[inp]
     elif os.path.isdir(inp):
-        input=[os.path.join(inp, name) for name in sorted(list(os.listdir(inp)))]
+        for name in sorted(list(os.listdir(inp))):
+            if name.endswith(".wav") or name.endswith(".mp3"):
+                input.append(os.path.join(inp, name))
     else:
         return "输入路径存在但既不是文件也不是文件夹"
     slicer = Slicer(

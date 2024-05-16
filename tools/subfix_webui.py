@@ -309,7 +309,8 @@ if __name__ == "__main__":
 
     set_global(args.load_json, args.load_list, args.json_key_text, args.json_key_path, args.g_batch)
     
-    with gr.Blocks() as demo:
+    css = """footer {visibility: hidden}"""
+    with gr.Blocks(css=css, theme="Kasien/ali_theme_custom") as demo:
 
         with gr.Row():
             btn_change_index = gr.Button("Change Index")
