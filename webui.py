@@ -343,7 +343,6 @@ def open_slice(slice_zip_obj,opt_root,threshold,min_length,min_interval,hop_size
     global ps_slice
 
     # Unzip the uploaded file
-    print(slice_zip_obj.name)
     slice_zip = slice_zip_obj.name
     unzip_dir = os.path.dirname(slice_zip)
     slice_dir = os.path.join(unzip_dir, os.path.splitext(os.path.basename(slice_zip))[0])
